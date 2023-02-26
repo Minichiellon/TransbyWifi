@@ -5,7 +5,7 @@ import android.app.ProgressDialog
 import android.content.Intent
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-
+//
 open class BaseActivity : AppCompatActivity() {
 
     private var loadingDialog: ProgressDialog? = null   //"?"加在变量名后，系统在任何情况不会报它的空指针异常
